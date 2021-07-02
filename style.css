@@ -1,0 +1,47 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(240, 214, 235);
+}
+.img-loader{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#canvas{
+  border: 1px solid rgb(194, 100, 202);
+  color: rgba(85, 52, 82, 0.137);
+  margin-top: 5%;
+  margin-left: 39%;
+}
+#div-up, #hf, #div-can{
+  align-self: center;
+}
+#div-can{
+  display: flex;
+  flex-direction: column;
+}
+#downloader{
+  color: white;
+  background-color: rgb(212, 100, 194); 
+  padding: 20px;
+  width: 30%;
+  align-self: center;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+#downloader:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+#footer, #header, #uploader{
+  padding: 10px;
+}
+#h, #f, #up{
+  padding: 15px;
+}
