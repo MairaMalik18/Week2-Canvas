@@ -18,7 +18,7 @@
       </div>     
     </div>
     <div id="div-can">    
-      <button id="downloader">Download</button>
+      <button id="downloader" disabled>Download</button>
     </div>
     <canvas id="canvas"></canvas>
     <script>
@@ -34,6 +34,7 @@
             canvas.width = img.width;
             canvas.height = img.height+40;
             ctx.drawImage(img, 0, 40);
+            document.getElementById("downloader").disabled = false;
             ctx.fillStyle="rgb(216,191,216)";
             ctx.fillRect(0, 0, img.width, 40);
             ctx.fillRect(0, img.height, img.width, 40);
